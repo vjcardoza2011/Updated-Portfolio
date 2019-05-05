@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+* { box-sizing: border-box;} 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('../images/concrete_seamless.png');
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Dancing Script', cursive;
+    color: #470a0a;
+}
+
+h1, h2, h3 {
+    font-family: 'Passion One', 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color: maroon;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #470a0a;
+}
+
+h2, h3 { 
+    font-size: 22px;
+}
+
+#logo {
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    background: rgb(216, 109, 127);
+    color: #fff;
+}
+
+.navbar {
+    min-height: 80px;
+}
+  
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-right > li {
+    margin-top: 15px;
+    border-left: 1px solid #efefef;
+}
+
+.navbar-right > li:first-of-type
+{
+    border-left: none;
+}
+
+#main-container {
+    min-height: 100%
+}
+
+.main-section {
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.sidebar { 
+    padding: 30px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.sidebar a:hover img {
+    border: 3px solid #470a0a;
+}
+
+h3, .sidebar, h2 { 
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child { 
+    margin-right: 0;
+}
+
+footer {
+    clear: both;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: -170px;
+    border-top: 8px solid #bc4f5e;
+    background: rgb(216, 109, 127);
+    color: maroon;
+}
+
+/* portfolio */
+
+.thumbnail 
+{
+    max-width: 100%;
+    position: relative;
+    border: none;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.work img {
+    opacity: .8;
+}
+
+.work h3 { 
+    padding: 15px;
+    line-height: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 0;
+    margin-bottom: 0; 
+    text-align: center;
+    font-weight: 300;
+    background: rgb(216, 109, 127);
+    color: #fff;
+} 
+
+.work:hover img {
+    opacity: 1;
+}
+
+/* contact */
+
+textarea 
+{
+    max-width: 100%;
+}
+
+.btn-default 
+{
+    background-color: maroon;
+    color: #fff;
+}

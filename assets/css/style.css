@@ -158,3 +158,12 @@ textarea
     background-color: maroon;
     color: #fff;
 }
+
+#glink {
+    color: blue;
+    text-decoration: underline;
+}
+
+#text-link {
+    margin-left: 30%;
+}
